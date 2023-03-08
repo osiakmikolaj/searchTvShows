@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+:root {
+    --main-color: #005377;
+    --dark-background-color: #222;
+    --input-outline-color: lightgray;
+    --input-focus-color: lightskyblue;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+    color: var(--dark-background-color);
+    font-size: 32px;
+}
+
+body {
+    margin: 0;
+    transition: background-color 0.5s;
+    font-family: "Source Sans Pro", sans-serif;
+    min-width: 200px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.dark-mode {
+    color: white;
+    background-color: var(--dark-background-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_search-bar {
+    background-color: var(--main-color);
+    padding: 20px calc(20% / 8) 15px calc(20% / 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#search-bar_input {
+    font-size: 32px;
+    border-radius: 5px;
+    border: 2px solid var(--input-outline-color);
+}
+
+#search-bar_input:focus {
+    border: 2px solid var(--input-focus-color);
+    outline: 2px solid var(--input-focus-color);
+}
+
+#search-bar_input::placeholder {
+    color: var(--input-outline-color);
+}
+
+#search-bar_mode-button {
+    height: 32px;
+    background-color: var(--input-outline-color);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: auto 0 0 0;
+}
+
+.container_start-message {
+    margin: 45px auto 0 auto;
+    font-size: 52px;
+    padding: 30px;
+    text-decoration: #47682c underline;
+}
+
+.container_start-message p {
+    margin: auto;
+}
+
+.container_showElements {
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.show-card {
+    width: 20%;
+    margin: calc(20% / 8);
+}
+
+.show-card .show-card_img {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    #search-bar_input {
+        font-size: 26px;
+    }
+
+    .show-card {
+        width: 30%;
+        margin: calc(10% / 6);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #search-bar_input {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #search-bar_input {
+        font-size: 16px;
+    }
+}
