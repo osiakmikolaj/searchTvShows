@@ -9,7 +9,7 @@ The project is available [here](https://osiakmikolaj.github.io/searchTvShows/) o
 
 ## How to use the Project
 
-Simoply search TV Shows on the search bar!
+Simply search TV Shows on the search bar!
 <br>
 Also you can choose between dark mode and light mode.
 
