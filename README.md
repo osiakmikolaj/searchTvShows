@@ -1,7 +1,5 @@
 # Tv Show Search
 
-Still working on it!
-
 A webiste for searching images of TV series. Made for learning using API and fetch/axios.
 
 ## How to Install and Run the Project
