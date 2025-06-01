@@ -17,4 +17,4 @@ Also you can choose between dark mode and light mode.
 
 ## Credits
 
-Thanks to [Colt Steele](https://www.youtube.com/@ColtSteeleCode) and his [Udemy course](https://www.udemy.com/course/the-web-developer-bootcamp/) i made this project.
+Thanks to [Colt Steele](https://www.youtube.com/@ColtSteeleCode) and his [Udemy course](https://www.udemy.com/course/the-web-developer-bootcamp/).
